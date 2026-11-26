@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SkyBlood</title>
+  <link rel="stylesheet" href="style.css?v=4">
+  <script type="importmap">
+    { "imports": { "three": "./vendor/three.module.js", "three/addons/": "./vendor/" } }
+  </script>
+</head>
+<body>
+  <div id="scene"></div>
+
+  <div id="hud" class="panel">
+    <div class="title">SkyBlood <span id="policy"></span></div>
+    <div class="row"><span id="clock">06:00</span><span id="tick">t = 0 / 240</span></div>
+    <div class="label">Battery <span id="bat-text"></span></div>
+    <div class="bar"><div id="bat-bar"></div></div>
+    <div class="label">Cargo</div>
+    <div id="cargo"><span class="slot"></span><span class="slot"></span></div>
+    <div class="label">Drone</div>
+    <div id="drone-state">ON PAD</div>
+  </div>
+
+  <div id="stats" class="panel">
+    <div class="stat"><span>Return</span><b id="s-return">0.0</b></div>
+    <div class="stat"><span>Deliveries</span><b id="s-deliv">0</b></div>
+    <div class="stat"><span>Emergencies served</span><b id="s-emerg">0</b></div>
+    <div class="stat"><span>Expired</span><b id="s-expired">0</b></div>
+    <div class="stat"><span>Forced landings</span><b id="s-forced">0</b></div>
+  </div>
+
+  <div id="decision" class="panel">
+    <div class="title">Agent decision</div>
+    <div id="decision-body"></div>
+  </div>
+
+  <div id="log" class="panel">
+    <div class="title">Action log</div>
+    <div id="log-body"></div>
+  </div>
+
+  <div id="controls" class="panel">
+    <button id="play">Pause</button>
+    <label>Speed <select id="speed">
+      <option>0.5</option><option>1</option><option>1.33</option><option>2</option>
+      <option selected>4</option><option>8</option><option>16</option>
+    </select></label>
+    <label>Camera <select id="camera">
+      <option value="auto">auto</option><option value="overview">overview</option><option value="follow">follow</option>
+    </select></label>
+    <input id="scrub" type="range" min="0" max="240" step="0.1" value="0">
+    <span id="scrub-label">06:00</span>
+  </div>
+
+  <div id="banner"></div>
+  <div id="attrib">Map © <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap contributors</a></div>
+
+  <script type="module" src="main.js?v=4"></script>
+</body>
+</html>
