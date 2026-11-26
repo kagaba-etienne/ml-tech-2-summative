@@ -1,0 +1,35 @@
+[project]
+name = "ml-tech-2-summative"
+version = "0.1.0"
+description = "SkyBlood: DQN, REINFORCE, PPO and A2C (TorchRL) on a blood-delivery drone dispatch environment"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.165.0",
+    "gymnasium>=1.4.0",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.5",
+    "pandas>=3.1.1",
+    "tensordict>=0.15.2,<0.16",
+    "torch>=2.11",
+    "torchrl==0.15.0",
+    "uvicorn>=0.54.0",
+    "websockets>=17.4",
+]
+
+[tool.uv.sources]
+torch = { index = "pytorch-cpu" }
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
