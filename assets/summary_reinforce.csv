@@ -1,0 +1,11 @@
+config,lr,gamma,episodes,baseline,entropy,adv_norm,note,final_eval_mean,final_eval_std,best_eval_during_training,frames_to_90pct,frames_to_90pct_greedy_eval,plateau_return,deliveries,emergencies,expired,forced_landings
+R1,0.001,0.99,8,True,0.0,True,Baseline,151.958,59.1938,159.7277,,,128.12913907342656,11.4,3.45,1.55,0.05
+R2,0.0003,0.99,8,True,0.0,True,Slow lr,68.4342,53.8791,68.4342,,,-17.880542431192662,8.85,2.75,3.05,0.0
+R3,0.003,0.99,8,True,0.0,True,Fast lr,167.3295,61.3592,183.4477,958359.0,900551.0,168.33487423780485,12.2,3.75,1.15,0.35
+R4,0.001,0.95,8,True,0.0,True,Short horizon,185.1887,53.518,185.1887,947621.0,800573.0,168.210961328125,12.55,4.2,0.85,0.05
+R5,0.001,0.99,2,True,0.0,True,Few episodes per update,175.5417,54.6958,175.6926,,,151.51221724709785,12.2,3.65,0.8,0.05
+R6,0.001,0.99,32,True,0.0,True,Many episodes per update,97.8544,49.3197,97.8544,,,32.7578209375,9.45,3.05,3.0,0.0
+R7,0.001,0.99,8,False,0.0,True,No baseline (pure MC),164.288,60.374,164.288,,,145.39522808333334,11.65,4.1,1.25,0.0
+R8,0.001,0.99,8,True,0.01,True,Small entropy bonus,191.9215,64.0837,191.9215,,800613.0,135.703611875,12.15,3.9,1.25,0.05
+R9,0.001,0.99,8,True,0.05,True,Large entropy bonus,198.6124,67.2794,198.6124,,700141.0,79.08551068548387,12.5,4.1,1.2,0.0
+R10,0.001,0.99,8,True,0.0,False,No advantage normalisation,145.1826,53.7358,165.7139,,,127.94869439655173,11.25,3.6,1.75,0.3

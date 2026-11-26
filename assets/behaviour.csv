@@ -1,0 +1,6 @@
+policy,deliveries,emergencies,expired,wasted_units,sorties,two_unit_sortie_pct,fly_on_drops,swaps,battery_at_launch_km,storm_flight_pct,emergency_first_pct,holds,invalid_actions,mask_changed
+Greedy heuristic,12.5,4.05,0.5,0.4,12.9,0.0,0.0,12.35,160.0,2.36,100.0,35.15,0.0,0.0
+DQN D6,13.4,4.25,0.2,3.55,15.1,45.7,1.85,6.55,130.57,1.74,93.75,18.65,0.0,0.0
+REINFORCE R9,12.5,4.1,1.2,0.7,11.05,54.75,2.15,7.95,148.4,2.1,72.09,49.8,0.0,56.6
+PPO P4,13.35,4.55,0.5,4.45,15.1,45.7,2.7,9.65,141.8,2.0,84.09,0.0,0.0,0.05
+A2C A3,13.25,4.2,0.5,4.55,13.2,97.35,4.6,9.15,146.4,2.29,89.13,0.0,0.0,0.25
