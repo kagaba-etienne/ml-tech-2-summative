@@ -1,0 +1,25 @@
+[a2c A7] 50,048/1,000,000 frames | return(last 50) -71.3 | 2550 fps
+[a2c A7] 100,096/1,000,000 frames | return(last 50) -25.5 | eval 42.4 | 2523 fps
+[a2c A7] 150,016/1,000,000 frames | return(last 50) 51.0 | eval 42.4 | 2510 fps
+[a2c A7] 200,064/1,000,000 frames | return(last 50) 109.3 | eval 160.8 | 2484 fps
+[a2c A7] 250,112/1,000,000 frames | return(last 50) 124.5 | eval 160.8 | 2461 fps
+[a2c A7] 300,032/1,000,000 frames | return(last 50) 144.9 | eval 163.9 | 2431 fps
+[a2c A7] 350,080/1,000,000 frames | return(last 50) 134.1 | eval 163.9 | 2413 fps
+[a2c A7] 400,000/1,000,000 frames | return(last 50) 159.0 | eval 169.9 | 2393 fps
+[a2c A7] 450,048/1,000,000 frames | return(last 50) 157.9 | eval 169.9 | 2380 fps
+[a2c A7] 500,096/1,000,000 frames | return(last 50) 173.8 | eval 187.9 | 2363 fps
+[a2c A7] 550,016/1,000,000 frames | return(last 50) 184.1 | eval 187.9 | 2352 fps
+[a2c A7] 600,064/1,000,000 frames | return(last 50) 177.2 | eval 186.0 | 2340 fps
+[a2c A7] 650,112/1,000,000 frames | return(last 50) 196.5 | eval 186.0 | 2332 fps
+[a2c A7] 700,032/1,000,000 frames | return(last 50) 181.7 | eval 182.6 | 2321 fps
+[a2c A7] 750,080/1,000,000 frames | return(last 50) 178.3 | eval 182.6 | 2315 fps
+[a2c A7] 800,000/1,000,000 frames | return(last 50) 183.9 | eval 187.1 | 2310 fps
+[a2c A7] 850,048/1,000,000 frames | return(last 50) 182.5 | eval 187.1 | 2319 fps
+[a2c A7] 900,096/1,000,000 frames | return(last 50) 181.7 | eval 192.3 | 2340 fps
+[a2c A7] 950,016/1,000,000 frames | return(last 50) 179.2 | eval 192.3 | 2359 fps
+[a2c A7] 1,000,064/1,000,000 frames | return(last 50) 183.0 | eval 192.3 | 2377 fps
+[a2c A7] 1,000,064/1,000,000 frames | return(last 50) 183.0 | eval 185.5 | 2376 fps
+[a2c A7] done: final eval 185.5, best eval 192.3
+  logs   /home/kanj/kagaba/ml-tech-2-summative/logs/a2c/A7
+  model  /home/kanj/kagaba/ml-tech-2-summative/models/pg/a2c_A7.pt
+  best   /home/kanj/kagaba/ml-tech-2-summative/models/pg/a2c_A7_best.pt

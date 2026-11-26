@@ -1,0 +1,25 @@
+[reinforce R5] 50,263/1,000,000 frames | return(last 50) -96.0 | 863 fps
+[reinforce R5] 100,074/1,000,000 frames | return(last 50) -56.2 | eval -135.1 | 853 fps
+[reinforce R5] 150,110/1,000,000 frames | return(last 50) -60.2 | eval -135.1 | 851 fps
+[reinforce R5] 200,199/1,000,000 frames | return(last 50) -26.7 | eval -41.5 | 849 fps
+[reinforce R5] 250,066/1,000,000 frames | return(last 50) -5.2 | eval -41.5 | 847 fps
+[reinforce R5] 300,118/1,000,000 frames | return(last 50) 21.1 | eval 65.0 | 844 fps
+[reinforce R5] 350,135/1,000,000 frames | return(last 50) 41.9 | eval 65.0 | 842 fps
+[reinforce R5] 400,181/1,000,000 frames | return(last 50) 74.4 | eval 164.3 | 869 fps
+[reinforce R5] 450,028/1,000,000 frames | return(last 50) 99.2 | eval 164.3 | 909 fps
+[reinforce R5] 500,049/1,000,000 frames | return(last 50) 117.8 | eval 160.2 | 945 fps
+[reinforce R5] 550,179/1,000,000 frames | return(last 50) 133.5 | eval 160.2 | 977 fps
+[reinforce R5] 600,095/1,000,000 frames | return(last 50) 123.3 | eval 147.5 | 1005 fps
+[reinforce R5] 650,124/1,000,000 frames | return(last 50) 130.3 | eval 147.5 | 1029 fps
+[reinforce R5] 700,056/1,000,000 frames | return(last 50) 142.1 | eval 158.4 | 1052 fps
+[reinforce R5] 750,048/1,000,000 frames | return(last 50) 144.1 | eval 158.4 | 1074 fps
+[reinforce R5] 800,077/1,000,000 frames | return(last 50) 149.4 | eval 157.8 | 1094 fps
+[reinforce R5] 850,141/1,000,000 frames | return(last 50) 145.0 | eval 157.8 | 1114 fps
+[reinforce R5] 900,013/1,000,000 frames | return(last 50) 147.4 | eval 175.7 | 1131 fps
+[reinforce R5] 950,074/1,000,000 frames | return(last 50) 148.0 | eval 175.7 | 1147 fps
+[reinforce R5] 1,000,003/1,000,000 frames | return(last 50) 161.6 | eval 175.7 | 1162 fps
+[reinforce R5] 1,000,003/1,000,000 frames | return(last 50) 161.6 | eval 175.5 | 1162 fps
+[reinforce R5] done: final eval 175.5, best eval 175.7
+  logs   /home/kanj/kagaba/ml-tech-2-summative/logs/reinforce/R5
+  model  /home/kanj/kagaba/ml-tech-2-summative/models/pg/reinforce_R5.pt
+  best   /home/kanj/kagaba/ml-tech-2-summative/models/pg/reinforce_R5_best.pt

@@ -1,0 +1,26 @@
+[92m2026-11-25 12:42:25,351 [torchrl][INFO][0m    Initialized LazyTensorStorage with torch.Size([2048]) shape[92m [END][0m
+[ppo P3] 51,200/1,000,000 frames | return(last 50) 56.9 | 2384 fps
+[ppo P3] 100,352/1,000,000 frames | return(last 50) 129.4 | eval 184.8 | 2325 fps
+[ppo P3] 151,552/1,000,000 frames | return(last 50) 167.2 | eval 184.8 | 2281 fps
+[ppo P3] 200,704/1,000,000 frames | return(last 50) 193.4 | eval 188.7 | 2252 fps
+[ppo P3] 251,904/1,000,000 frames | return(last 50) 183.1 | eval 188.7 | 2234 fps
+[ppo P3] 301,056/1,000,000 frames | return(last 50) 185.0 | eval 189.5 | 2221 fps
+[ppo P3] 350,208/1,000,000 frames | return(last 50) 182.2 | eval 189.5 | 2208 fps
+[ppo P3] 401,408/1,000,000 frames | return(last 50) 191.2 | eval 190.4 | 2197 fps
+[ppo P3] 450,560/1,000,000 frames | return(last 50) 189.6 | eval 190.4 | 2189 fps
+[ppo P3] 501,760/1,000,000 frames | return(last 50) 205.5 | eval 194.4 | 2183 fps
+[ppo P3] 550,912/1,000,000 frames | return(last 50) 189.6 | eval 194.4 | 2179 fps
+[ppo P3] 600,064/1,000,000 frames | return(last 50) 192.6 | eval 190.5 | 2175 fps
+[ppo P3] 651,264/1,000,000 frames | return(last 50) 197.0 | eval 190.5 | 2173 fps
+[ppo P3] 700,416/1,000,000 frames | return(last 50) 191.0 | eval 193.3 | 2171 fps
+[ppo P3] 751,616/1,000,000 frames | return(last 50) 200.6 | eval 193.3 | 2170 fps
+[ppo P3] 800,768/1,000,000 frames | return(last 50) 192.5 | eval 201.5 | 2168 fps
+[ppo P3] 851,968/1,000,000 frames | return(last 50) 185.6 | eval 201.5 | 2167 fps
+[ppo P3] 901,120/1,000,000 frames | return(last 50) 197.5 | eval 198.6 | 2166 fps
+[ppo P3] 950,272/1,000,000 frames | return(last 50) 185.6 | eval 198.6 | 2165 fps
+[ppo P3] 1,001,472/1,000,000 frames | return(last 50) 186.3 | eval 198.6 | 2167 fps
+[ppo P3] 1,001,472/1,000,000 frames | return(last 50) 186.3 | eval 194.5 | 2166 fps
+[ppo P3] done: final eval 194.5, best eval 201.5
+  logs   /home/kanj/kagaba/ml-tech-2-summative/logs/ppo/P3
+  model  /home/kanj/kagaba/ml-tech-2-summative/models/pg/ppo_P3.pt
+  best   /home/kanj/kagaba/ml-tech-2-summative/models/pg/ppo_P3_best.pt

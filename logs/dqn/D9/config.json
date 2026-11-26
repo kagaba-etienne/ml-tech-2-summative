@@ -1,0 +1,26 @@
+{
+  "algo": "dqn",
+  "total_frames": 1000000,
+  "lr": 0.0005,
+  "gamma": 0.99,
+  "buffer": 100000,
+  "batch": 128,
+  "eps_frac": 0.5,
+  "target": "hard",
+  "tau": 0.005,
+  "hard_every": 2000,
+  "double": true,
+  "n_envs": 8,
+  "fpb": 32,
+  "init_random_frames": 10000,
+  "eps_init": 1.0,
+  "eps_end": 0.05,
+  "hidden": [
+    128,
+    128
+  ],
+  "name": "D9",
+  "note": "Hard target every 2,000 updates",
+  "seed": 0,
+  "masked": false
+}

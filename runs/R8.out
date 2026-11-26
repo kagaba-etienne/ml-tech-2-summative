@@ -1,0 +1,25 @@
+[reinforce R8] 50,268/1,000,000 frames | return(last 50) -97.0 | 871 fps
+[reinforce R8] 100,757/1,000,000 frames | return(last 50) -89.7 | eval 35.1 | 867 fps
+[reinforce R8] 150,226/1,000,000 frames | return(last 50) -66.8 | eval 35.1 | 866 fps
+[reinforce R8] 200,451/1,000,000 frames | return(last 50) -80.3 | eval 54.6 | 863 fps
+[reinforce R8] 250,907/1,000,000 frames | return(last 50) -48.3 | eval 54.6 | 862 fps
+[reinforce R8] 300,423/1,000,000 frames | return(last 50) -37.7 | eval -7.7 | 859 fps
+[reinforce R8] 350,385/1,000,000 frames | return(last 50) -2.4 | eval -7.7 | 859 fps
+[reinforce R8] 400,205/1,000,000 frames | return(last 50) 3.0 | eval 78.1 | 882 fps
+[reinforce R8] 450,151/1,000,000 frames | return(last 50) 26.2 | eval 78.1 | 923 fps
+[reinforce R8] 500,020/1,000,000 frames | return(last 50) 53.7 | eval 143.9 | 959 fps
+[reinforce R8] 550,449/1,000,000 frames | return(last 50) 85.4 | eval 143.9 | 993 fps
+[reinforce R8] 600,314/1,000,000 frames | return(last 50) 99.5 | eval 139.4 | 1022 fps
+[reinforce R8] 650,654/1,000,000 frames | return(last 50) 107.0 | eval 139.4 | 1048 fps
+[reinforce R8] 700,576/1,000,000 frames | return(last 50) 93.1 | eval 140.7 | 1070 fps
+[reinforce R8] 750,410/1,000,000 frames | return(last 50) 115.1 | eval 140.7 | 1093 fps
+[reinforce R8] 800,613/1,000,000 frames | return(last 50) 129.3 | eval 184.3 | 1113 fps
+[reinforce R8] 850,338/1,000,000 frames | return(last 50) 129.7 | eval 184.3 | 1133 fps
+[reinforce R8] 900,538/1,000,000 frames | return(last 50) 139.5 | eval 191.3 | 1152 fps
+[reinforce R8] 950,317/1,000,000 frames | return(last 50) 135.5 | eval 191.3 | 1169 fps
+[reinforce R8] 1,000,087/1,000,000 frames | return(last 50) 130.1 | eval 191.3 | 1185 fps
+[reinforce R8] 1,000,087/1,000,000 frames | return(last 50) 130.1 | eval 191.9 | 1185 fps
+[reinforce R8] done: final eval 191.9, best eval 191.9
+  logs   /home/kanj/kagaba/ml-tech-2-summative/logs/reinforce/R8
+  model  /home/kanj/kagaba/ml-tech-2-summative/models/pg/reinforce_R8.pt
+  best   /home/kanj/kagaba/ml-tech-2-summative/models/pg/reinforce_R8_best.pt

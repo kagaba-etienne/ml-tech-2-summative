@@ -1,0 +1,26 @@
+[92m2026-11-25 12:21:13,294 [torchrl][INFO][0m    Initialized LazyTensorStorage with torch.Size([100000]) shape[92m [END][0m
+[dqn D4] 50,016/1,000,000 frames | return(last 50) -76.6 | 1611 fps
+[dqn D4] 100,000/1,000,000 frames | return(last 50) -27.9 | eval 207.1 | 1525 fps
+[dqn D4] 150,016/1,000,000 frames | return(last 50) -21.9 | eval 207.1 | 1503 fps
+[dqn D4] 200,000/1,000,000 frames | return(last 50) 34.6 | eval 201.1 | 1488 fps
+[dqn D4] 250,016/1,000,000 frames | return(last 50) 59.9 | eval 201.1 | 1478 fps
+[dqn D4] 300,000/1,000,000 frames | return(last 50) 86.3 | eval 192.1 | 1469 fps
+[dqn D4] 350,016/1,000,000 frames | return(last 50) 113.4 | eval 192.1 | 1461 fps
+[dqn D4] 400,000/1,000,000 frames | return(last 50) 138.2 | eval 199.2 | 1452 fps
+[dqn D4] 450,016/1,000,000 frames | return(last 50) 162.0 | eval 199.2 | 1446 fps
+[dqn D4] 500,000/1,000,000 frames | return(last 50) 184.4 | eval 190.7 | 1440 fps
+[dqn D4] 550,016/1,000,000 frames | return(last 50) 196.6 | eval 190.7 | 1435 fps
+[dqn D4] 600,000/1,000,000 frames | return(last 50) 187.3 | eval 196.4 | 1430 fps
+[dqn D4] 650,016/1,000,000 frames | return(last 50) 181.4 | eval 196.4 | 1427 fps
+[dqn D4] 700,000/1,000,000 frames | return(last 50) 168.2 | eval 195.7 | 1423 fps
+[dqn D4] 750,016/1,000,000 frames | return(last 50) 195.2 | eval 195.7 | 1421 fps
+[dqn D4] 800,000/1,000,000 frames | return(last 50) 205.5 | eval 194.9 | 1418 fps
+[dqn D4] 850,016/1,000,000 frames | return(last 50) 178.7 | eval 194.9 | 1416 fps
+[dqn D4] 900,000/1,000,000 frames | return(last 50) 193.9 | eval 199.0 | 1413 fps
+[dqn D4] 950,016/1,000,000 frames | return(last 50) 186.6 | eval 199.0 | 1412 fps
+[dqn D4] 1,000,000/1,000,000 frames | return(last 50) 181.6 | eval 199.0 | 1411 fps
+[dqn D4] 1,000,000/1,000,000 frames | return(last 50) 181.6 | eval 189.9 | 1411 fps
+[dqn D4] done: final eval 189.9, best eval 207.1
+  logs   /home/kanj/kagaba/ml-tech-2-summative/logs/dqn/D4
+  model  /home/kanj/kagaba/ml-tech-2-summative/models/dqn/D4.pt
+  best   /home/kanj/kagaba/ml-tech-2-summative/models/dqn/D4_best.pt

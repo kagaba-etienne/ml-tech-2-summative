@@ -1,0 +1,19 @@
+{
+  "algo": "a2c",
+  "total_frames": 1000000,
+  "name": "A3",
+  "lr": 0.002,
+  "steps": 16,
+  "gamma": 0.99,
+  "lmbda": 1.0,
+  "entropy": 0.01,
+  "value_coef": 0.5,
+  "n_envs": 8,
+  "note": "Fast lr",
+  "seed": 0,
+  "masked": false,
+  "hidden": [
+    64,
+    64
+  ]
+}

@@ -1,0 +1,26 @@
+[92m2026-11-25 12:21:13,371 [torchrl][INFO][0m    Initialized LazyTensorStorage with torch.Size([100000]) shape[92m [END][0m
+[dqn D7] 50,016/1,000,000 frames | return(last 50) 41.0 | 1590 fps
+[dqn D7] 100,000/1,000,000 frames | return(last 50) 169.6 | eval 180.7 | 1470 fps
+[dqn D7] 150,016/1,000,000 frames | return(last 50) 185.9 | eval 180.7 | 1434 fps
+[dqn D7] 200,000/1,000,000 frames | return(last 50) 172.5 | eval 186.6 | 1415 fps
+[dqn D7] 250,016/1,000,000 frames | return(last 50) 159.5 | eval 186.6 | 1405 fps
+[dqn D7] 300,000/1,000,000 frames | return(last 50) 181.5 | eval 169.9 | 1397 fps
+[dqn D7] 350,016/1,000,000 frames | return(last 50) 184.2 | eval 169.9 | 1392 fps
+[dqn D7] 400,000/1,000,000 frames | return(last 50) 191.0 | eval 194.1 | 1387 fps
+[dqn D7] 450,016/1,000,000 frames | return(last 50) 192.1 | eval 194.1 | 1385 fps
+[dqn D7] 500,000/1,000,000 frames | return(last 50) 178.3 | eval 195.3 | 1382 fps
+[dqn D7] 550,016/1,000,000 frames | return(last 50) 177.3 | eval 195.3 | 1380 fps
+[dqn D7] 600,000/1,000,000 frames | return(last 50) 178.2 | eval 197.7 | 1378 fps
+[dqn D7] 650,016/1,000,000 frames | return(last 50) 183.4 | eval 197.7 | 1376 fps
+[dqn D7] 700,000/1,000,000 frames | return(last 50) 186.8 | eval 193.7 | 1374 fps
+[dqn D7] 750,016/1,000,000 frames | return(last 50) 177.4 | eval 193.7 | 1373 fps
+[dqn D7] 800,000/1,000,000 frames | return(last 50) 181.5 | eval 185.1 | 1371 fps
+[dqn D7] 850,016/1,000,000 frames | return(last 50) 188.1 | eval 185.1 | 1370 fps
+[dqn D7] 900,000/1,000,000 frames | return(last 50) 185.1 | eval 197.9 | 1368 fps
+[dqn D7] 950,016/1,000,000 frames | return(last 50) 186.3 | eval 197.9 | 1368 fps
+[dqn D7] 1,000,000/1,000,000 frames | return(last 50) 186.6 | eval 197.9 | 1373 fps
+[dqn D7] 1,000,000/1,000,000 frames | return(last 50) 186.6 | eval 191.5 | 1372 fps
+[dqn D7] done: final eval 191.5, best eval 197.9
+  logs   /home/kanj/kagaba/ml-tech-2-summative/logs/dqn/D7
+  model  /home/kanj/kagaba/ml-tech-2-summative/models/dqn/D7.pt
+  best   /home/kanj/kagaba/ml-tech-2-summative/models/dqn/D7_best.pt

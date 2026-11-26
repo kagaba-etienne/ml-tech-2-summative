@@ -1,0 +1,18 @@
+{
+  "algo": "reinforce",
+  "total_frames": 1000000,
+  "name": "R5",
+  "lr": 0.001,
+  "gamma": 0.99,
+  "episodes": 2,
+  "baseline": true,
+  "entropy": 0.0,
+  "adv_norm": true,
+  "note": "Few episodes per update",
+  "seed": 0,
+  "masked": false,
+  "hidden": [
+    64,
+    64
+  ]
+}

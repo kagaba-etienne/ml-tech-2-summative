@@ -1,0 +1,26 @@
+[92m2026-11-25 12:21:13,285 [torchrl][INFO][0m    Initialized LazyTensorStorage with torch.Size([100000]) shape[92m [END][0m
+[dqn D3] 50,016/1,000,000 frames | return(last 50) -73.9 | 1634 fps
+[dqn D3] 100,000/1,000,000 frames | return(last 50) -35.8 | eval 196.7 | 1536 fps
+[dqn D3] 150,016/1,000,000 frames | return(last 50) -3.4 | eval 196.7 | 1511 fps
+[dqn D3] 200,000/1,000,000 frames | return(last 50) 31.2 | eval 199.2 | 1494 fps
+[dqn D3] 250,016/1,000,000 frames | return(last 50) 55.5 | eval 199.2 | 1483 fps
+[dqn D3] 300,000/1,000,000 frames | return(last 50) 78.3 | eval 188.0 | 1472 fps
+[dqn D3] 350,016/1,000,000 frames | return(last 50) 111.3 | eval 188.0 | 1463 fps
+[dqn D3] 400,000/1,000,000 frames | return(last 50) 146.1 | eval 196.9 | 1454 fps
+[dqn D3] 450,016/1,000,000 frames | return(last 50) 163.2 | eval 196.9 | 1448 fps
+[dqn D3] 500,000/1,000,000 frames | return(last 50) 183.1 | eval 213.7 | 1440 fps
+[dqn D3] 550,016/1,000,000 frames | return(last 50) 194.3 | eval 213.7 | 1434 fps
+[dqn D3] 600,000/1,000,000 frames | return(last 50) 175.8 | eval 197.0 | 1429 fps
+[dqn D3] 650,016/1,000,000 frames | return(last 50) 185.8 | eval 197.0 | 1424 fps
+[dqn D3] 700,000/1,000,000 frames | return(last 50) 186.3 | eval 191.1 | 1421 fps
+[dqn D3] 750,016/1,000,000 frames | return(last 50) 194.0 | eval 191.1 | 1418 fps
+[dqn D3] 800,000/1,000,000 frames | return(last 50) 196.1 | eval 202.2 | 1415 fps
+[dqn D3] 850,016/1,000,000 frames | return(last 50) 189.6 | eval 202.2 | 1413 fps
+[dqn D3] 900,000/1,000,000 frames | return(last 50) 194.0 | eval 193.5 | 1410 fps
+[dqn D3] 950,016/1,000,000 frames | return(last 50) 185.5 | eval 193.5 | 1409 fps
+[dqn D3] 1,000,000/1,000,000 frames | return(last 50) 167.6 | eval 193.5 | 1408 fps
+[dqn D3] 1,000,000/1,000,000 frames | return(last 50) 167.6 | eval 189.3 | 1408 fps
+[dqn D3] done: final eval 189.3, best eval 213.7
+  logs   /home/kanj/kagaba/ml-tech-2-summative/logs/dqn/D3
+  model  /home/kanj/kagaba/ml-tech-2-summative/models/dqn/D3.pt
+  best   /home/kanj/kagaba/ml-tech-2-summative/models/dqn/D3_best.pt

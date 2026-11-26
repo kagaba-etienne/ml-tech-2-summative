@@ -1,0 +1,25 @@
+[reinforce R2] 50,914/1,000,000 frames | return(last 50) -104.4 | 847 fps
+[reinforce R2] 100,893/1,000,000 frames | return(last 50) -96.1 | eval -72.1 | 843 fps
+[reinforce R2] 150,920/1,000,000 frames | return(last 50) -91.1 | eval -72.1 | 843 fps
+[reinforce R2] 200,502/1,000,000 frames | return(last 50) -90.4 | eval -43.4 | 840 fps
+[reinforce R2] 250,222/1,000,000 frames | return(last 50) -96.4 | eval -43.4 | 839 fps
+[reinforce R2] 300,733/1,000,000 frames | return(last 50) -88.7 | eval -119.8 | 838 fps
+[reinforce R2] 350,747/1,000,000 frames | return(last 50) -78.2 | eval -119.8 | 838 fps
+[reinforce R2] 400,284/1,000,000 frames | return(last 50) -83.9 | eval -119.7 | 836 fps
+[reinforce R2] 450,371/1,000,000 frames | return(last 50) -68.2 | eval -119.7 | 836 fps
+[reinforce R2] 500,857/1,000,000 frames | return(last 50) -49.4 | eval -119.7 | 835 fps
+[reinforce R2] 550,605/1,000,000 frames | return(last 50) -48.9 | eval -119.7 | 834 fps
+[reinforce R2] 600,461/1,000,000 frames | return(last 50) -49.0 | eval -119.7 | 848 fps
+[reinforce R2] 650,675/1,000,000 frames | return(last 50) -46.7 | eval -119.7 | 879 fps
+[reinforce R2] 700,874/1,000,000 frames | return(last 50) -34.4 | eval -118.6 | 909 fps
+[reinforce R2] 750,628/1,000,000 frames | return(last 50) -37.5 | eval -118.6 | 937 fps
+[reinforce R2] 800,455/1,000,000 frames | return(last 50) -27.0 | eval -54.5 | 963 fps
+[reinforce R2] 850,695/1,000,000 frames | return(last 50) -36.0 | eval -54.5 | 987 fps
+[reinforce R2] 900,137/1,000,000 frames | return(last 50) -19.2 | eval 59.6 | 1009 fps
+[reinforce R2] 950,804/1,000,000 frames | return(last 50) -25.2 | eval 59.6 | 1031 fps
+[reinforce R2] 1,000,443/1,000,000 frames | return(last 50) -17.3 | eval 59.6 | 1050 fps
+[reinforce R2] 1,000,443/1,000,000 frames | return(last 50) -17.3 | eval 68.4 | 1050 fps
+[reinforce R2] done: final eval 68.4, best eval 68.4
+  logs   /home/kanj/kagaba/ml-tech-2-summative/logs/reinforce/R2
+  model  /home/kanj/kagaba/ml-tech-2-summative/models/pg/reinforce_R2.pt
+  best   /home/kanj/kagaba/ml-tech-2-summative/models/pg/reinforce_R2_best.pt
